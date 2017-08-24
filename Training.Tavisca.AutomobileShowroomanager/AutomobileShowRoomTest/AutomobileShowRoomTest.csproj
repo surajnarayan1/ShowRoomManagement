@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="ShowRoomFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowRoomManagerFixturecs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -19,8 +19,18 @@ namespace AutomobileShowRoomTest
             automobile.EngineType = "4 stroke";
             ShowRoom showroom = new ShowRoom();
             showroom.AddAutomobile(automobile);
+            ShowRoomManager showroomManager = new ShowRoomManager();
+            try
+            {
+                var automobiles = showroom.GetAutomobileIfPresent("HondaCity").Name;
 
-            /
+            }
+            catch
+            {
+                Assert.Fail();
+            }
+
+           
 
 
         }

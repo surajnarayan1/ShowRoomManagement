@@ -8,24 +8,27 @@ namespace Training.Tavisca.AutomobileShowroomManager
 {
     public class ShowRoomManager
     {
-        public static long revenue; 
-       
+       long revenue;
+
         public List<Automobile> automobiles;
+       
         ShowRoom showroom;
 
-        public  ShowRoomManager()
+
+
+        public ShowRoomManager()
         {
             automobiles = new List<Automobile>();
             showroom = new ShowRoom();
-            
+
         }
         public void SellVechile(Automobile automobile)
         {
             double taxPercentage = 0.12;
             var availability = showroom.AutomobileAvailablity("HondaCity");
-            if(availability==true)
+            if (availability == true)
             {
-                revenue = automobile.Price +(long)(automobile.Price * taxPercentage);
+                revenue = automobile.Price + (long)(automobile.Price * taxPercentage);
             }
 
         }
@@ -36,23 +39,23 @@ namespace Training.Tavisca.AutomobileShowroomManager
         public void RentVechiles(Automobile automobile, int time)
         {
             var availability = showroom.AutomobileAvailablity("Audi");
-            if(availability==true)
+            if (availability == true)
             {
                 revenue = revenue + time * 1000;
             }
-            
+
 
 
         }
-        public  void MaintenanceService(String Service)
+        public void MaintenanceService(String Service)
         {
-            if(Service=="PartialRepairBody")
+            if (Service == "PartialRepairBody")
             {
                 long charges = 5000;
                 revenue = revenue + charges;
 
             }
-            if(Service=="painting&Washing")
+            if (Service == "painting&Washing")
             {
                 long charges = 2000;
                 revenue = revenue + charges;
@@ -60,10 +63,15 @@ namespace Training.Tavisca.AutomobileShowroomManager
 
 
         }
-        public  void TestDrive(Automobile )
+        public void TestDrive(Automobile automobile )
         {
+            revenue = 0 + revenue;
+            automobiles.Remove(automobile);
+
+
 
         }
+     
 
 
 
@@ -72,4 +80,12 @@ namespace Training.Tavisca.AutomobileShowroomManager
 
 
     }
-}
+
+
+
+
+
+ }
+
+ 
+

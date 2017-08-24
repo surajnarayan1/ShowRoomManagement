@@ -41,6 +41,19 @@ namespace Training.Tavisca.AutomobileShowroomManager
 
 
         }
+        public Automobile GetAutomobileIfPresent(string name)
+        {
+            foreach (Automobile automobile in automobiles)
+            {
+                if (automobile.Name == name)
+                    return automobile;
+            }
+            throw new Exception();
+
+
+
+        }
+       
 
 
 
