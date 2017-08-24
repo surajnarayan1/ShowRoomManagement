@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training.Tavisca.AutomobileShowroomManager", "Training.Tavisca.AutomobileShowroomManager\Training.Tavisca.AutomobileShowroomManager.csproj", "{014EFA5B-B808-448C-9BE9-A2C42705C219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomobileShowRoomTest", "AutomobileShowRoomTest\AutomobileShowRoomTest.csproj", "{BF81A67F-EA74-4915-AAC5-7A5A21D439D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{014EFA5B-B808-448C-9BE9-A2C42705C219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014EFA5B-B808-448C-9BE9-A2C42705C219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014EFA5B-B808-448C-9BE9-A2C42705C219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014EFA5B-B808-448C-9BE9-A2C42705C219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF81A67F-EA74-4915-AAC5-7A5A21D439D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF81A67F-EA74-4915-AAC5-7A5A21D439D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF81A67F-EA74-4915-AAC5-7A5A21D439D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF81A67F-EA74-4915-AAC5-7A5A21D439D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
